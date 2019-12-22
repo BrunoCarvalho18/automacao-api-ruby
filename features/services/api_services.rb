@@ -5,7 +5,7 @@ class ApiServices
 
     #Esse método você cria o post e realiza uma requisicao enviando informacoes para a api
     def criar_post(body)
-        self.class.post("/create", :body => body.to_json , :headers => {'Content-Type' => 'application/json'})
+      self.class.post("/create", :body => body.to_json , :headers => {'Content-Type' => 'application/json'})
     end   
     #Esse método deleta um empregado
     def deletar_empregado(id)
