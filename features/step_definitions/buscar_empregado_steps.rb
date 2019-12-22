@@ -1,5 +1,5 @@
 Quando("eu busco um empregado") do
-    @resposta = ApiServices.new.buscar_empregado(220286)
+    @resposta = ApiServices.new.buscar_empregado(220655)
 end
 
 Então("devo listar as informacoes do empregado que foi buscado") do
